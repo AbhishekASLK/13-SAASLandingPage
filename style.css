@@ -1,0 +1,142 @@
+nav {
+    background-color: blue;
+    display: grid;
+    color: white;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+.home-block {
+    background-color: blue;
+    color: white;
+}
+button {
+    background-color: #2c9af4;
+    border: none;
+    color: white;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+li {
+    padding: 0 20px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    padding: 10px 10px;
+}
+button:hover {
+    cursor: pointer;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+/* --------------------------------------- */
+
+.home-block {
+    height: 100vh;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* .home-left {
+    border: 2px solid black;
+} */
+
+.home-right {
+    margin-top: -100px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border: 2px solid yellow; */
+}
+
+.home-left h1 {
+    padding-right: 304px;
+    margin-top: 185px;
+    font-size: 50px;
+    margin-left: 50px;
+}
+.home-left p {
+    padding-right: 53px;
+    margin-top: 47px;
+    margin-left: 46px;
+}
+
+/* ------------Last Page-------- */
+
+.last {
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* .last-left {
+    border: 2px solid green;
+} */
+
+.last-right h1 {
+    padding-right: 337px;
+}
+.last-right {
+    padding-left: 202px;
+    margin-top: 80px;
+}
+.features div p {
+    padding-right: 302px;
+}
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 1200px;
+}
+.slogan {
+    text-align: center;
+}
+.banner {
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.banner div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    background-color: antiquewhite;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+}
+
+.banner > div > p {
+    padding: 0 33px;
+    margin-left: 39px;
+    margin-top: -10px;
+}
