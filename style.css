@@ -5,6 +5,10 @@ nav {
   grid-template-columns: 1fr 4fr 1fr;
 }
 
+.menu {
+  display: none;
+}
+
 .home-block {
   background-color: blue;
   color: white;
@@ -145,6 +149,10 @@ button:hover {
 /* ------------------ */
 
 @media only screen and (max-width: 950px) {
+  
+    .menu {
+        display: block;
+    }
 
     body {
         overflow-x: hidden;
